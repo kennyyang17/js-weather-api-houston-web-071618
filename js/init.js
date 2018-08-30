@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
   const ctx = document.getElementById("NYCWeatherChart").getContext("2d")
-  const API_KEY = "Go get an API key";
+  const API_KEY = "3be8874a88523bf70d895c8441efbf52";
   const CORS_WRAPPER = "https://cors-anywhere.herokuapp.com/"
   const URL = CORS_WRAPPER + "https://api.darksky.net/forecast/" + API_KEY + "/40.7127,-74.0059?exclude=currently,minutely,daily";
 
